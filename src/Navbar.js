@@ -2,19 +2,16 @@ import { Link } from "react-router-dom";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import PersonIcon from "@mui/icons-material/Person";
 import { useHistory } from "react-router-dom";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 
 export default function Navbar() {
   const history = useHistory();
-  
+
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <Link to="/" class="navbar-brand">
-        <img
-          src={
-            "https://cdn-icons.flaticon.com/png/512/2157/premium/2157113.png?token=exp=1648235240~hmac=7a86b24352980a4ad4b61393c7cf0293"
-          }
-          alt="logo"
-          style={{ widhth: "15px", height: "30px" }}
+        <SportsEsportsIcon
+          style={{ width: "40px", height: "60px", color: "orange" }}
         />
         GAME ZONE
       </Link>
@@ -73,19 +70,15 @@ export default function Navbar() {
         <li
           class="nav-item"
           style={{ display: "flex", flexDirection: "column" }}
-        >
-          
-        </li>
-        <li class="nav-item">
-          
-        </li>
+        ></li>
+        <li class="nav-item"></li>
       </ul>
       <Link to="/login" onClick={() => history.push("/login")} class="navbar">
-            <PersonIcon />
-          </Link>
-          <Link to="/cart" class="navbar">
-            <ShoppingBasketIcon />
-          </Link>
+        <PersonIcon />
+      </Link>
+      <Link to="/cart" class="navbar">
+        <ShoppingBasketIcon />
+      </Link>
     </nav>
   );
 }
