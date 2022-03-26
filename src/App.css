@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  height: min-content;
+}
+
+.product-container:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.product-image {
+  width: 450px;
+  height: 540px;
+  object-fit: cover;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.title {
+  font-family: Bebas Neue;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+Link,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.console-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.controller-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.navbar {
+  font-family: Bebas Neue;
+  font-size: 25px;
+}
+
+.navbar-brand {
+  font-family: Bebas Neue;
+  font-size: 35px;
+}
+
+.border-bottom {
+  width: 250px;
+  height: 220px;
+}
+
+.instagram {
+  width: 100px;
+  height: 100px;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border-radius: 8px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  background-color: lawngreen;
+}
+#login-page {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 500px;
+}
+
+#img-auth {
+  width: 250px;
+  height: 250px;
+}
+
+.not-found-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
