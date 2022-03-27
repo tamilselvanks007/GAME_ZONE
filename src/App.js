@@ -14,9 +14,14 @@ import Body from "./Components/Home Page/Body";
 function App() {
   return (
     <div>
-      <Navbar />
       <div>
+        <Navbar />
         <Switch>
+          <Route path="/GAME_ZONE">
+            <Carousel />
+            <Body />
+            <Footer />
+          </Route>
           <Route exact path="/">
             <Carousel />
             <Body />
@@ -27,12 +32,6 @@ function App() {
             <Body />
             <Footer />
           </Route>
-          <Route exact path="/GAME_ZONE">
-            <Carousel />
-            <Body />
-            <Footer />
-          </Route>
-          <Footer />
           <Route exact path="/products/consoles">
             <Consoles />
           </Route>
