@@ -12,7 +12,7 @@ export default function Body() {
   };
   return (
     <div>
-      <section className="section" style={{backgroundColor:"pink"}}>
+      <section className="section" style={{ backgroundColor: "pink" }}>
         <div className="container">
           <div className="row" style={{ margin: "8px" }}>
             <div className="col-md-12 text-center">
@@ -45,18 +45,26 @@ export default function Body() {
 
       <InnerBody />
 
-      <section className="section bg-c-light border-top" style={{backgroundColor:"lightyellow"}}>
+      <section
+        className="section bg-c-light border-top"
+        style={{ backgroundColor: "lightyellow" }}
+      >
         <div className="container">
-          <div className="row" style={{margin:"8px"}}>
+          <div className="row" style={{ margin: "8px" }}>
             <div className="col-md-12 mb-4 text-center">
-              <h3 className="main-heading navbar" style={{
+              <h3
+                className="main-heading navbar"
+                style={{
                   color: "red",
                   display: "flex",
                   justifyContent: "center",
-                }}>Our Services</h3>
+                }}
+              >
+                Our Services
+              </h3>
             </div>
 
-            <div className="col-md-4" style={{marginBottom:"20px"}}>
+            <div className="col-md-4" style={{ marginBottom: "20px" }}>
               <div className="card shadow">
                 <img
                   src={
@@ -66,7 +74,10 @@ export default function Body() {
                   alt="services"
                 />
                 <div className="card-body">
-                  <h6 style={styles} className="text-primary"> Consoles </h6>
+                  <h6 style={styles} className="text-primary">
+                    {" "}
+                    Consoles{" "}
+                  </h6>
                   <p style={styles1}>
                     Lorem ipsum is simply dummy text of the printing and
                     typingsetting industry.
@@ -92,7 +103,10 @@ export default function Body() {
                   alt="services"
                 />
                 <div className="card-body">
-                  <h6 style={styles} className="text-primary"> Games </h6>
+                  <h6 style={styles} className="text-primary">
+                    {" "}
+                    Games{" "}
+                  </h6>
                   <p style={styles1}>
                     Lorem ipsum is simply dummy text of the printing and
                     typingsetting industry.
@@ -116,7 +130,10 @@ export default function Body() {
                   alt="services"
                 />
                 <div className="card-body">
-                  <h6 style={styles} className="text-primary"> Controller </h6>
+                  <h6 style={styles} className="text-primary">
+                    {" "}
+                    Controller{" "}
+                  </h6>
                   <p style={styles1}>
                     Lorem ipsum is simply dummy text of the printing and
                     typingsetting industry.

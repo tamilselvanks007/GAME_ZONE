@@ -1,15 +1,15 @@
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
-import Navbar from "./Navbar";
-import { Home } from "./Home";
-import { Controllers } from "./Controllers.1";
-import { Games } from "./Games.1";
-import { Consoles } from "./Consoles.1";
-import { Contact } from "./Contact";
-import { About } from "./About";
-import Login from "./Login";
-import NotFound from "./NotFound";
-import Cart from "./Cart";
+import Navbar from "./Components/Home Page/Navbar";
+import { Controllers } from "./Components/Product Categories/Controllers";
+import { Games } from "./Components/Product Categories/Games";
+import { Consoles } from "./Components/Product Categories/Consoles";
+import Login from "./Components/Login";
+import NotFound from "./Components/NotFound";
+import Cart from "./Components/Cart";
+import Footer from "./Components/Home Page/Footer";
+import Carousel from "./Components/Home Page/Carousel";
+import Body from "./Components/Home Page/Body";
 
 function App() {
   return (
@@ -18,10 +18,14 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Carousel />
+            <Body />
+            <Footer />
           </Route>
           <Route exact path="/products">
-            <Home />
+            <Carousel />
+            <Body />
+            <Footer />
           </Route>
           <Route exact path="/products/consoles">
             <Consoles />
@@ -32,17 +36,8 @@ function App() {
           <Route exact path="/products/controllers">
             <Controllers />
           </Route>
-          {/* <Route path="/consoles">
-            <Consoles />
-          </Route>
-          <Route path="/games">
-            <Games />
-          </Route>
-          <Route path="/controllers">
-            <Controllers />
-          </Route> */}
           <Route exact path="/about">
-            <About />
+            <Body />
           </Route>
           <Route exact path="/login">
             <Login />
@@ -51,7 +46,7 @@ function App() {
             <Cart />
           </Route>
           <Route exact path="/contact">
-            <Contact />
+            <Footer />
           </Route>
           <Route exact path="/**">
             <NotFound />

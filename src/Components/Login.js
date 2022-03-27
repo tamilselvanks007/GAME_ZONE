@@ -5,7 +5,6 @@ import CardContent from "@mui/material/CardContent";
 
 export default function Login() {
   return (
-
     <div>
       <h1 className="title">Login</h1>
       <Card className="login-container">

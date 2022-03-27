@@ -1,10 +1,16 @@
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import Button from '@mui/material/Button';
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import Button from "@mui/material/Button";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 
-export function ProductDetails({ name, price, description, image, numInStock }) {
+export function ProductDetails({
+  name,
+  price,
+  description,
+  image,
+  numInStock,
+}) {
   return (
     <Card className="product-container">
       <img className="product-image" src={image} alt="" />
@@ -22,10 +28,16 @@ export function ProductDetails({ name, price, description, image, numInStock }) 
           )}
         </p>
       </CardContent>
-      <CardActions style={{ backgroundColor: "lavender", display: "flex", flexDirection: "column"}}>
-      <Button variant="contained" href="#" color="warning">
-        Add to Cart <AddShoppingCartIcon /> 
-      </Button>
+      <CardActions
+        style={{
+          backgroundColor: "lavender",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <Button variant="contained" href="#" color="warning">
+          Add to Cart <AddShoppingCartIcon />
+        </Button>
       </CardActions>
     </Card>
   );
