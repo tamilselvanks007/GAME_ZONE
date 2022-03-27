@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/GAME_ZONE/static/css/main.631deb62.css",
-    "main.js": "/GAME_ZONE/static/js/main.a0fbabc3.js",
+    "main.js": "/GAME_ZONE/static/js/main.1dd81748.js",
     "index.html": "/GAME_ZONE/index.html",
     "main.631deb62.css.map": "/GAME_ZONE/static/css/main.631deb62.css.map",
-    "main.a0fbabc3.js.map": "/GAME_ZONE/static/js/main.a0fbabc3.js.map"
+    "main.1dd81748.js.map": "/GAME_ZONE/static/js/main.1dd81748.js.map"
   },
   "entrypoints": [
     "static/css/main.631deb62.css",
-    "static/js/main.a0fbabc3.js"
+    "static/js/main.1dd81748.js"
   ]
 }
