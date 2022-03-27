@@ -27,6 +27,12 @@ function App() {
             <Body />
             <Footer />
           </Route>
+          <Route exact path="/GAME_ZONE">
+            <Carousel />
+            <Body />
+            <Footer />
+          </Route>
+          <Footer />
           <Route exact path="/products/consoles">
             <Consoles />
           </Route>
