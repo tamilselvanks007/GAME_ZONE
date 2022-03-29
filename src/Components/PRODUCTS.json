@@ -6,7 +6,7 @@
     "price": "From ₹1,000",
     "description": "Package includes PlayStation 5, PlayStation 5 Controller(1), PlayStation 5 Remote with Single Bundle",
     "numInStock": true,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "1",
@@ -15,7 +15,7 @@
     "price": "From ₹2,500",
     "description": "Package includes PlayStation 5, PlayStation 5 Controller(2), PlayStation 5 Remote, PlayStation 5 games(6) with Double Bundle",
     "numInStock": false,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "2",
@@ -24,7 +24,7 @@
     "price": "From ₹1,500",
     "description": "Package includes PlayStation 5, PlayStation 5 Controller(2), PlayStation 5 Remote with Double Bundle without games",
     "numInStock": true,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "3",
@@ -33,7 +33,7 @@
     "price": "From ₹1,500",
     "description": "Package includes PlayStation 5, PlayStation 5 Controller(1), PlayStation 5 Remote, PlayStation 5 games(6) with Single Bundle",
     "numInStock": false,
-    "productType": "consoles"
+    "productType": "console"
   },
 
   {
@@ -43,7 +43,7 @@
     "price": "From ₹1,450",
     "description": "Package includes PlayStation 4, PlayStation 4 Controller(2), PlayStation 4 Remote, PlayStation 4 games(6) with Double Bundle",
     "numInStock": false,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "5",
@@ -52,7 +52,7 @@
     "price": "From ₹1,950",
     "description": "Package includes PlayStation 4, PlayStation 4 Controller(4), PlayStation 4 Remote, PlayStation 4 games(6) with Group Bundle",
     "numInStock": true,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "6",
@@ -61,7 +61,7 @@
     "price": "From ₹300",
     "description": "Package includes PlayStation 4, PlayStation 4 Controller(2), PlayStation 4 Remote with Double Bundle without games",
     "numInStock": true,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "7",
@@ -70,7 +70,7 @@
     "price": "From ₹500",
     "description": "Package includes PlayStation 4, PlayStation 4 Controller(4), PlayStation 4 Remote with Group Bundle without games",
     "numInStock": true,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "8",
@@ -79,7 +79,7 @@
     "price": "From ₹300",
     "description": "Package includes Xbox One S, Xbox One S Controller, Xbox One S Remote with Single Bundle",
     "numInStock": true,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "9",
@@ -88,7 +88,7 @@
     "price": "From ₹300",
     "description": "Package includes PlayStation 4, PlayStation 4 Controller(4), PlayStation 4 Remote, PlayStation 4 games(6) with Group Bundle",
     "numInStock": true,
-    "productType": "consoles"
+    "productType": "console"
   },
   {
     "id": "10",
@@ -97,7 +97,7 @@
     "price": "From ₹100",
     "description": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
     "numInStock": false,
-    "productType": "games"
+    "productType": "game"
   },
   {
     "id": "11",
@@ -106,7 +106,7 @@
     "price": "From ₹50",
     "description": "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.",
     "numInStock": true,
-    "productType": "games"
+    "productType": "game"
   },
   {
     "id": "12",
@@ -115,7 +115,7 @@
     "price": "From ₹50",
     "description": "Call of Duty 4: Modern Warfare is a 2007 first-person shooter video game developed by Infinity Ward and published by Activision. It is the fourth main installment in the Call of Duty series. The game breaks away from the World War II setting of previous entries and is instead set in modern times.",
     "numInStock": true,
-    "productType": "games"
+    "productType": "game"
   },
   {
     "id": "13",
@@ -124,7 +124,7 @@
     "price": "From ₹50",
     "description": "Days Gone is an open-world action-adventure game set in a harsh wilderness two years after a devastating global pandemic. Step into the dirt flecked shoes of former outlaw biker Deacon St. John, a bounty hunter trying to find a reason to live in a land surrounded by death.",
     "numInStock": true,
-    "productType": "games"
+    "productType": "game"
   },
   {
     "id": "14",
@@ -133,7 +133,7 @@
     "price": "From ₹100",
     "description": "Similar to its predecessors, Far Cry 5 is an action-adventure first-person shooter set in an open world environment which the player can explore freely on foot or via various vehicles.",
     "numInStock": true,
-    "productType": "games"
+    "productType": "game"
   },
   {
     "id": "15",
@@ -142,7 +142,7 @@
     "price": "From ₹50",
     "description": "In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.",
     "numInStock": true,
-    "productType": "games"
+    "productType": "game"
   },
   {
     "id": "16",
@@ -151,7 +151,7 @@
     "price": "From ₹100",
     "description": "PS4 Dualshock 4 Wireless Controller",
     "numInStock": true,
-    "productType": "controllers"
+    "productType": "controller"
   },
   {
     "id": "17",
@@ -160,7 +160,7 @@
     "price": "From ₹100",
     "description": "Microsoft Xbox One Wireless Controller",
     "numInStock": true,
-    "productType": "controllers"
+    "productType": "controller"
   },
   {
     "id": "18",
@@ -169,6 +169,6 @@
     "price": "From ₹150",
     "description": "Microsoft Xbox One Wireless Controller",
     "numInStock": true,
-    "productType": "controllers"
+    "productType": "controller"
   }
 ]
