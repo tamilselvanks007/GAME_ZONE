@@ -3,7 +3,7 @@ import { PRODUCTS } from "../PRODUCTS";
 
 export function Controllers() {
   const filterItems = PRODUCTS.filter(
-    (item) => item.productType === "controller"
+    (item) => item.productType === "controllers"
   );
 
   return (

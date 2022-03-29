@@ -2,7 +2,7 @@ import { ProductDetails } from "../ProductDetails";
 import { PRODUCTS } from "../PRODUCTS";
 
 export function Games() {
-  const filterItems = PRODUCTS.filter((item) => item.productType === "game");
+  const filterItems = PRODUCTS.filter((item) => item.productType === "games");
 
   return (
     <div className="games">

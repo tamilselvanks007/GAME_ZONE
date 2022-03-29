@@ -8,7 +8,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 5, PlayStation 5 Controller(1), PlayStation 5 Remote with Single Bundle",
     numInStock: true,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 1,
@@ -19,7 +19,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 5, PlayStation 5 Controller(2), PlayStation 5 Remote, PlayStation 5 games(6) with Double Bundle",
     numInStock: false,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 5, PlayStation 5 Controller(2), PlayStation 5 Remote with Double Bundle without games",
     numInStock: true,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 5, PlayStation 5 Controller(1), PlayStation 5 Remote, PlayStation 5 games(6) with Single Bundle",
     numInStock: false,
-    productType: "console",
+    productType: "consoles",
   },
 
   {
@@ -53,7 +53,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 4, PlayStation 4 Controller(2), PlayStation 4 Remote, PlayStation 4 games(6) with Double Bundle",
     numInStock: false,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 5,
@@ -64,7 +64,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 4, PlayStation 4 Controller(4), PlayStation 4 Remote, PlayStation 4 games(6) with Group Bundle",
     numInStock: true,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 4, PlayStation 4 Controller(2), PlayStation 4 Remote with Double Bundle without games",
     numInStock: true,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 7,
@@ -86,7 +86,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 4, PlayStation 4 Controller(4), PlayStation 4 Remote with Group Bundle without games",
     numInStock: true,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ export const PRODUCTS = [
     description:
       "Package includes Xbox One S, Xbox One S Controller, Xbox One S Remote with Single Bundle",
     numInStock: true,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 9,
@@ -108,7 +108,7 @@ export const PRODUCTS = [
     description:
       "Package includes PlayStation 4, PlayStation 4 Controller(4), PlayStation 4 Remote, PlayStation 4 games(6) with Group Bundle",
     numInStock: true,
-    productType: "console",
+    productType: "consoles",
   },
   {
     id: 10,
@@ -119,7 +119,7 @@ export const PRODUCTS = [
     description:
       "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
     numInStock: false,
-    productType: "game",
+    productType: "games",
   },
   {
     id: 11,
@@ -130,7 +130,7 @@ export const PRODUCTS = [
     description:
       "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.",
     numInStock: true,
-    productType: "game",
+    productType: "games",
   },
   {
     id: 12,
@@ -140,7 +140,7 @@ export const PRODUCTS = [
     description:
       "Call of Duty 4: Modern Warfare is a 2007 first-person shooter video game developed by Infinity Ward and published by Activision. It is the fourth main installment in the Call of Duty series. The game breaks away from the World War II setting of previous entries and is instead set in modern times.",
     numInStock: true,
-    productType: "game",
+    productType: "games",
   },
   {
     id: 13,
@@ -150,7 +150,7 @@ export const PRODUCTS = [
     description:
       "Days Gone is an open-world action-adventure game set in a harsh wilderness two years after a devastating global pandemic. Step into the dirt flecked shoes of former outlaw biker Deacon St. John, a bounty hunter trying to find a reason to live in a land surrounded by death.",
     numInStock: true,
-    productType: "game",
+    productType: "games",
   },
   {
     id: 14,
@@ -160,7 +160,7 @@ export const PRODUCTS = [
     description:
       "Similar to its predecessors, Far Cry 5 is an action-adventure first-person shooter set in an open world environment which the player can explore freely on foot or via various vehicles.",
     numInStock: true,
-    productType: "game",
+    productType: "games",
   },
   {
     id: 15,
@@ -170,7 +170,7 @@ export const PRODUCTS = [
     description:
       "In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.",
     numInStock: true,
-    productType: "game",
+    productType: "games",
   },
   {
     id: 16,
@@ -180,7 +180,7 @@ export const PRODUCTS = [
     price: "From ₹100",
     description: "PS4 Dualshock 4 Wireless Controller",
     numInStock: true,
-    productType: "controller",
+    productType: "controllers",
   },
   {
     id: 17,
@@ -190,7 +190,7 @@ export const PRODUCTS = [
     price: "From ₹100",
     description: "Microsoft Xbox One Wireless Controller",
     numInStock: true,
-    productType: "controller",
+    productType: "controllers",
   },
   {
     id: 18,
@@ -200,6 +200,6 @@ export const PRODUCTS = [
     price: "From ₹150",
     description: "Microsoft Xbox One Wireless Controller",
     numInStock: true,
-    productType: "controller",
+    productType: "controllers",
   },
 ];
