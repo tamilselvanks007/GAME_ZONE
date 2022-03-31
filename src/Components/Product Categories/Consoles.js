@@ -1,16 +1,26 @@
 import { ProductDetails } from "../ProductDetails";
-import { PRODUCTS } from "../PRODUCTS";
+// import { PRODUCTS } from "../PRODUCTS";
+import { API_URL } from "../global";
+import { useEffect, useState } from "react";
 
 export function Consoles() {
-  const filterItems = PRODUCTS.filter(
-    (item) => item.productType === "consoles"
-  );
+  const [consoles, setConsoles] = useState([]);
+
+  const getProduct = () => {
+    fetch(`${API_URL}/products/consoles`, {
+      method: "GET",
+    })
+      .then((data) => data.json())
+      .then((response) => setConsoles(response));
+  };
+
+  useEffect(() => getProduct(), []);
 
   return (
     <div className="consoles">
       <h1 className="title">Consoles</h1>
       <div className="console-list">
-        {filterItems.map((product) => (
+        {consoles.map((product) => (
           <ProductDetails
             key={product.id}
             name={product.name}
